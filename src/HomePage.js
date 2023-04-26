@@ -29,7 +29,7 @@ function HomePage(props) {
         name, 
         loginRegister, 
         dataSelection, 
-        map, 
+        screenshot20230404At12071, 
         image2, 
         hello2, 
         copyrightGiesColl, 
@@ -105,11 +105,11 @@ function HomePage(props) {
         </p> 
         <div className= "data-selection aneklatin-normal-white-30px"> {dataSelection}
         </div>
-        <img
-            className="map" 
+        {/* <img
+            className="screenshot20230404At12071" 
             src="map.png"
-            alt="map"
-        />
+            alt="Screenshot 2023-04-04 at 12.07 1"
+        /> */}
     {/* <img className="image-2" src="bg.png" alt="image 2" />  */}
     </div>
     <div className="overlap-group1"> 
@@ -211,7 +211,7 @@ function HomePage(props) {
         ),
         loginRegister: "Login/Register",
         dataSelection: "Data Selection",
-        map: "map.png",
+        screenshot20230404At12071: "map.png",
         // image2: "bgg.png",
         hello2: "hello-1.png",
         copyrightGiesColl: "Copyright, Gies College of Business, University of Illinois . All rights reserved." ,

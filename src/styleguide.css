@@ -1,0 +1,76 @@
+:root {
+    --black-2: rgba(0, 0, 0, 0.502) ;
+    --black: rgba(0, 0, 0, 1);
+    --hippie-green: rgba(91, 126, 81, 1);
+    --amulet-2: rgba(123, 163, 111, 0.902) ;
+    --amulet: rgba(124, 163, 112, 1);
+    --romance: rgba(255, 252, 252, 1);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-xxs: 15px;
+    --font-size-xs: 20px;
+    --font-size-s: 25px;
+    --font-size-m: 30px;
+    --font-size-1: 36px;
+    --font-size-xl: 40px;
+    --font-size-xxl: 50px;
+    --font-family-anek_-latin: "Anek Latin";
+    --font-family-inter: "Inter"
+    --font-family-mada: "Mada";
+}
+    /* Classes */
+
+.inter-normal-black-36px {
+    color: var(--black-2);
+    font-family: var(- font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mada-normal-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-mada);
+    font-size: var(--font-size-xxs);
+    font-weight: 400; 
+    font-style: normal;
+}
+    
+.mada-bold-white-60px {
+    color: var (--white);
+    font-family: var(--font-family-mada);
+    font-size: 60px; 
+    font-weight: 700; 
+    font-style: normal;
+}
+
+.mada-bold-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-mada);
+    font-size: var(--font-size-x1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-normal-black-26px {
+    color: var(--black-2);
+    font-family: var(--font-family-inter);
+    font-size: 26px; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+.mada-normal-black-25px {
+    color: var(--black);
+    font-family: var(--font-family-mada) ;
+    font-size: var(--font-size-s) ;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+.aneklatin-normal-white-30px {
+    color: var(--white);
+    font-family: var(--font-family-anek_latin); 
+    font-size: var(--font-size-m);
+    font-weight: 400; 
+    font-style: normal;
+}

@@ -1,38 +1,413 @@
-.App {
-  text-align: center;
+@import url("http://fonts.googleapis.com/css?family=Mada:400, 700, 500|Inter:400|Anek+Latin:400");
+.screen a {
+    display: contents;
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-page {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 2637px;
+    overflow: hidden;
+    width: 1275px;
 }
 
-.App-link {
-  color: #61dafb;
+.overlap-group {
+    height: 2446px;
+    position: relative;
+    width: 1275px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rectangle-42 {
+    background-color: var(--amulet-2);
+    height: 836px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1275px;
+}
+
+.rectangle-10 {
+    background-color: var(--amulet);
+    box-shadow: 0px 4px 4px #00000040;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1275px;
+}
+
+.hello-1 {
+    height: 106px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 466px; 
+}
+
+.place {
+    left: 659px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    width: 82px;
+}
+
+.icon-document {
+    height: 24px;
+    left: 788px;
+    position: absolute;
+    top: 66px;
+    width: 30px;
+}
+
+.icon_lock {
+    height: 24px;
+    left: 1031px;
+    position: absolute;
+    top: 64px;
+    width: 31px;
+}
+
+.gies-x-state-of-illinois {
+    color: var(--white);
+    font-family: var(--font-family-mada);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    left: 136px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 277px;
+    width: 777px;
+}
+
+.rectangle-43 {
+    background-color: var(--white);
+    border-radius: 5px;
+    height: 71px;
+    left: 41px;
+    position: absolute;
+    top: 473px;
+    width: 300px;
+}
+
+.rectangle-51 {
+    background-color: var(--white);
+    border-radius: 5px;
+    height: 71px;
+    left: 379px;
+    position: absolute;
+    top: 473px;
+    width: 300px;
+}
+
+.password {
+    left: 398px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 493px;
+    width: 269px;
+}
+
+.username {
+    left: 63px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 493px;
+    width: 269px;
+}
+
+.rectangle-47 {
+    background-color: var(--hippie-green);
+    border-radius: 5px;
+    height: 72px;
+    left: 741px;
+    position: absolute;
+    top: 472px;
+    width: 172px;
+}
+
+.login {
+    color: var(--romance);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    left: 766px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 489px;
+    width: 121px;
+}
+
+.disruption-lab-rdbms-project {
+    color: black;
+    font-family: var(--font-family-mada);
+    font-size: var(--font-size-xs2);
+    font-weight: 700;
+    left: 109px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 410px;
+    width: 476px;
+}
+
+.gies-has-assisted-th { 
+    color: var(--black);
+    font-family: var(--font -family-mada);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 835px;
+    width: 1169px;
+}
+
+.input-to-be-an-input {
+    left: 126px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 1131px;
+    width: 259px;
+}
+
+.research-to-facilita {
+    left: 1056px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 1131px;
+    width: 200px;
+}
+
+.inform-to-inform-oth {
+    left: 618px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 1131px;
+    width: 261px;
+}
+
+.image-1 {
+    height: 820px;
+    left: 0;
+    object-fit: cover; 
+    position: absolute;
+    top: 1626px;
+    width: 1275px;
+}
+
+.rectangle-48 {
+    background-color: #7ba36fb5;
+    height: 820px;
+    left: 0;
+    position: absolute;
+    top: 1626px;
+    width: 1275px;
+}
+
+.title { 
+    left: 34px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 1881px;
+    width: 553px;
+}
+
+.name {
+    color: var(--white);
+    font-family: var(--font -family-mada);
+    font-size: var(--font-size-x12);
+    font-weight: 500;
+    left: 28px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2006px;
+    width: 566px;
+}
+
+.rectangle-50 {
+    height: 5px;
+    left: 616px;
+    position: absolute;
+    top: 100px;
+    width: 125px;
+}
+
+.ellipse-1 {
+    height: 78px;
+    left: 41px;
+    position: absolute;
+    top: 1158px;
+    width: 82px;
+}
+
+.ellipse-6 {
+    height: 78px;
+    left: 533px;
+    position: absolute;
+    top: 1158px;
+    width: 82px;
+}
+
+.ellipse-7 {
+    height: 78px;
+    left: 974px;
+    position: absolute;
+    top: 1158px;
+    width: 82px;
+}
+
+.icon-globe {
+    height: 57px;
+    left: 52px;
+    position: absolute;
+    top: 1168px;
+    width: 59px;
+}
+
+.icon-wallet {
+    height: 47px;
+    left: 546px;
+    position: absolute;
+    top: 1173px;
+    width: 56px;
+}
+
+.icon-book {
+    height: 55px;
+    left: 983px;
+    position: absolute;
+    top: 1168px;
+    width: 64px;
+}
+
+.ellipse-6-1 {
+    height: 960px;
+    left: 0;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    top: 738px;
+    width: 1275px;
+}
+
+.login-register {
+    left: 1045px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    width: 237px;
+}
+
+.data-selection {
+    left: 827px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute;
+    top: 59px;
+    width: 262px;
+}
+
+.map {
+    height: 449px;
+    left: 559px;
+    object-fit: cover;
+    position: absolute;
+    top: 1820px;
+    width: 639px;
+}
+
+.image-2 {
+    height: 694px;
+    left: 0;
+    mix-blend-mode: soft-light;
+    object-fit: cover;
+    position: absolute;
+    top: 151px;
+    width: 1275px;
+}
+
+.overlap-group1 {
+    height: 191px;
+    position: relative;
+    width: 1361px;
+}
+
+.rectangle-49 {
+    background-color: var (--amulet);
+    box-shadow: inset 0px 4px 4px L#00000040, Opx 4px 4px L #00000040;
+    height: 191px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1275p;
+    }
+
+.hello-2 {
+    height: 122px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 547px;
+}
+
+.copyright-gies-coll {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 161px;
+    width: 516px;
+}
+
+.home-data-selection-login-register {
+    color: var(--white);
+    font-family: var(--font-family-mada);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    left: 475px;
+    letter-spacing: 0; 
+    line-height: normal;
+    position: absolute; 
+    text-align: center;
+    top: 73px;
+    width: 886px;
 }
