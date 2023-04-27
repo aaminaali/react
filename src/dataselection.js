@@ -1,6 +1,4 @@
 import React from "react";
-import './dataselection.css';
-import './styleguide.css'; 
 
 function App() {
     return <Exec />;
@@ -22,8 +20,10 @@ function Exec() {
                         <img className="icon-document" src="icon-document.svg" alt="icon-document" />
                         <div className="overlap-group2 aneklatin-normal-white-30px">
                             <img className="icon-unlock" src="icon-unlock.svg" alt="icon-unlock" />
-                            <img className="rectangle-50" src="rectangle-50.svg" alt="Rectangle 50" />
-                            <div className="data-selection"> Data Selection </div>
+                            <img className="rectangle-50" src="rectangle-50.avg" alt="Rectangle 50" />
+                            <div className="data-selection">
+                                Data Selection
+                            </div>
                             <p className="login-register">
                                 &nbsp;&nbsp;&nbsp;&nbsp; Login/Register
                             </p>
@@ -38,15 +38,25 @@ function Exec() {
                             </div>
                         </div>
                         <div className="overlap-group5">
-                            <img className="rectangle-47" src="rectangle-12.svg" alt="Rectangle 47" />
+                            <img className="rectangle-47" src="rectangle-12.avg" alt="Rectangle 47" />
                             <img className="rectangle-48" src="rectangle-12.svg" alt="Rectangle 48" />
                             <img className="rectangle-49" src="rectangle-12.svg" alt="Rectangle 49" />
                             <img className="rectangle-50-1" src="rectangle-50-1.svg" alt="Rectangle 50" />
-                            <div className="employees"> Employees </div>
-                            <div className="company inter-normal-black-30px"> Company </div>
-                            <div className="company inter-normal-black-30px"> Board </div>
-                            <div className="company inter-normal-black-30px"> Exec </div>
-                            <div className="company inter-normal-black-30px"> Exec </div>
+                            <div className="employees">
+                                Employees
+                            </div>
+                            <div className="company inter-normal-black-30px">
+                                Company
+                            </div>
+                            <div className="board inter-normal-black-30px">
+                                Board
+                            </div>
+                            <div className="exec-1 inter-normal-black-30px">
+                                Exec
+                            </div>
+                            <div className="exec-1 inter-normal-black-30px">
+                                Exec
+                            </div>
                         </div>
                     </div>
                     <div className="overlap-group4">
@@ -66,7 +76,7 @@ function Exec() {
                     </div>
                 </div>
                 <p className="copyright-gies-coll mada-normal-white-15px">
-                    Copyright, Gies College of Business, University of Illinois . All rights reserved.
+                    Copyright, Gies College of Business, University of Illinois . All rights reserved .
                 </p>
             </div>
         </div>
