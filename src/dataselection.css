@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Mada:400, 700, 500|Inter:400|Anek+Latin:400");
+@import url("https://fonts.googleapis.com/css?family=Mada:400,700,500|Inter:400|Anek+Latin:400");
 
 .screen a {
     display: contents;
@@ -31,15 +31,17 @@
 
 .overlap-group {
     align-items: center;
-    background-color: var (--amulet); 
-    box-shadow: 0px 4px 4px #00000040; 
+    background-color: var(--amulet);
+    box-shadow: 0px 4px 4px #00000040;
     display: flex;
     height: 150px;
     justify-content: flex-end;
-    min-width: 1275px; padding: 14px 3px;
- }
- 
- .hello-1 { align-self: flex-start;
+    min-width: 1275px;
+    padding: 14px 3px;
+}
+
+.hello-1 {
+    align-self: flex-start;
     height: 106px;
     object-fit: cover;
     width: 466px;
@@ -53,18 +55,18 @@
 }
 
 .place {
-    letter-spacing: 0; 
+    letter-spacing: 0;
     line-height: normal;
-    margin-left: 9px; 
-    margin-top: 13px; 
+    margin-left: 9px;
+    margin-top: 13px;
     min-height: 39px;
     width: 82px;
 }
 
 .overlap-group3 {
     height: 49px;
-    margin-left: 59px; 
-    margin-top: 11px; 
+    margin-left: 59px;
+    margin-top: 11px;
     position: relative;
     width: 484px;
 }
@@ -102,8 +104,8 @@
 }
 
 .data-selection {
-    left: 7px;
-    letter-spacing: O;
+    left: 0;
+    letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 0;
@@ -112,10 +114,11 @@
 
 .login-register {
     left: 220px;
-    letter-spacing: O;
+    letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 3px;
+    white-space: nowrap;
     width: 237px;
 }
 
@@ -125,7 +128,7 @@
     display: flex;
     flex-direction: column;
     gap: 9px;
-    min-height: 684px; 
+    min-height: 684px;
     padding: 42px 105px;
     width: 1275px;
 }
@@ -139,8 +142,8 @@
 
 .overlap-group6 {
     align-items: center;
-    background-image: src"rect12.png"; 
-    background-size: 100% 100%; 
+    background-image: url(rectangle-12.svg);
+    background-size: 100% 100%;
     display: flex;
     height: 50px;
     min-width: 165px;
@@ -148,8 +151,10 @@
 }
 
 .owners {
-    letter-spacing: O;
-    line-height: normal; min-height: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 34px;
+    white-space: nowrap;
     width: 130px;
 }
 
@@ -157,7 +162,7 @@
     height: 59px;
     position: relative;
     width: 839px;
-}
+} 
 
 .rectangle-47 {
     height: 50px;
@@ -194,10 +199,10 @@
 .employees {
     color: var(--black);
     font-family: var(--font-family-inter);
-    font-size: var(--font-size-x1);
+    font-size: var(--font-size-xl);
     font-weight: 400;
     left: 10px;
-    letter-spacing: O;
+    letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 6px;
@@ -206,39 +211,40 @@
 
 .company {
     left: 217px;
-    letter-spacing: 0; 
-    line-height: normal;
-    position: absolute;
-    top: 8px;
-    width: 216px;
-    }
-
-.board {
-    left: 424px;
-    letter-spacing: 0; 
+    letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 8px;
     width: 216px;
 }
 
-exec-1 {
+.board {
+    left: 424px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    width: 216px;
+}
+
+.exec-1 {
     left: 623px;
-    letter-spacing: O;
-    line-height: normal; 
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
     top: 5px;
     width: 216px;
 }
 
 .overlap-group4 {
-    align-items: flex-start; 
+    align-items: flex-start;
     background-color: #d9d9d9;
     display: flex;
     height: 529px;
     justify-content: flex-end;
-    margin-right: 9px; 
-    min-width: 1029px; padding: 22px 21px;
+    margin-right: 9px;
+    min-width: 1029px;
+    padding: 22px 21px;
 }
 
 .flex-col {
@@ -246,49 +252,51 @@ exec-1 {
     display: flex;
     flex-direction: column;
     gap: 17px;
-    margin-top: 32px; 
-    min-height: 118px; 
+    margin-top: 32px;
+    min-height: 118px;
     position: relative;
     width: 312px;
 }
 
-.flex-col-1 { align-items: center;
+.flex-col-1 {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 17px;
-    margin-left: 67px; 
-    margin-top: 32px; 
-    min-height: 118px; 
+    margin-left: 67px;
+    margin-top: 32px;
+    min-height: 118px;
     position: relative;
     width: 312px;
 }
 
 .overlap-group2-1 {
-    align-items: flex-start; 
+    align-items: flex-start;
     align-self: flex-end;
-    background-image: src="rect51.png";
-    background-size: 100% 100%; 
+    background-image: url(rectangle-51.svg);
+    background-size: 100% 100%;
     display: flex;
     height: 50px;
     justify-content: flex-end;
-    margin-left: 125px; 
-    min-width: 165px; 
+    margin-left: 125px;
+    min-width: 165px;
     padding: 4px 30px;
 }
-    
+
 .next {
-    letter-spacing: 0; 
+    letter-spacing: 0;
     line-height: normal;
     min-height: 40px;
     width: 88px;
 }
 
 .copyright-gies-coll {
-    letter-spacing: 0; 
-    line-height: normal; 
-    margin-top: 1773px; 
-    min-height: 18px; 
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 1773px;
+    min-height: 18px;
     text-align: center;
+    white-space: nowrap;
     width: 516px;
 }
 
@@ -312,8 +320,8 @@ exec-1 {
 }
 
 .keyword {
-    letter-spacing: 0; 
-    line-height: normal; 
+    letter-spacing: 0;
+    line-height: normal;
     min-height: 31px;
     width: 208px;
 }
@@ -321,7 +329,7 @@ exec-1 {
 .component-1 {
     align-items: flex-end;
     background-color: var(--hint-of-red);
-    border-radius: 10px;
+    border: 10px;
     display: flex;
     height: 49px;
     overflow: hidden;
@@ -330,17 +338,17 @@ exec-1 {
 }
 
 .choose-a-question {
-    letter-spacing: 0; 
-    line-height: normal; 
-    margin-left: 11px; 
-    min-height: 34px; 
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 11px;
+    min-height: 34px;
     width: 288px;
 }
 
 .component-2 {
     align-items: flex-start;
     background-color: var(--hint-of-red);
-    border-radius: 10px;
+    border: 10px;
     display: flex;
     height: 49px;
     margin-right: 1px;
@@ -350,9 +358,10 @@ exec-1 {
 }
 
 .choose-categories {
-    letter-spacing: O;
-    line-height: normal; 
-    margin-left: 1px; 
-    min-height: 26px; 
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1px;
+    min-height: 26px;
     width: 280px;
 }
+
